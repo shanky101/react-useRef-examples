@@ -1,3 +1,6 @@
+import { useState, useEffect, useRef } from "react";
+import Input from "./Input";
+
 function SimpleInputContainer() {
   const [value, setValue] = useState({});
 
